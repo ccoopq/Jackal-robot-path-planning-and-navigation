@@ -5,7 +5,7 @@ NUS ME5413 Autonomous Mobile Robotics Final Project
 > 
 > Co-Authors : [ikun](https://github.com/ccoopq) and his group mates
 
-![cover_image](src/me5413_world/media/gazebo_world.png)
+![cover_image](Result/video1.gif)
 
 ## Dependencies
 
