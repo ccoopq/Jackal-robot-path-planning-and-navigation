@@ -109,7 +109,7 @@ roslaunch me5413_world manual.launch
 
 **Note:** This robot keyboard teleop control is also included in all other launch files, so you don't need to launch this when you do mapping or navigation.
 
-![rviz_manual_image](src/me5413_world/media/rviz_manual.png)
+![rviz_manual_image](src/me5413_world/media/rviz_manua.png)
 
 ### 2. Mapping
 
@@ -128,7 +128,7 @@ roscd me5413_world/maps/
 rosrun map_server map_saver -f my_map map:=/map
 ```
 
-![rviz_nmapping_image](src/me5413_world/media/rviz_mapping.png)
+![rviz_nmapping_image](src/me5413_world/media/my_map.png)
 
 ### 3. Navigation
 
