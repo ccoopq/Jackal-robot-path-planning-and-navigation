@@ -1,0 +1,2 @@
+flir_camera_description:imu_tools-melodic/imu_complementary_filter:imu_tools-melodic/imu_filter_madgwick:imu_tools-melodic/imu_tools:imu_tools-melodic/rviz_imu_plugin:interactive_tools:jackal_cartographer_navigation:jackal_description:me5413_world
+-DCATKIN_DEVEL_PREFIX=/media/ikun/T7/5413final/ME5413_Final_Project-main/devel -DCMAKE_INSTALL_PREFIX=/media/ikun/T7/5413final/ME5413_Final_Project-main/install -G Unix Makefiles

@@ -1,0 +1,8 @@
+prefix=/media/ikun/T7/5413final/ME5413_Final_Project-main/install
+
+Name: interactive_tools
+Description: Description of interactive_tools
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: 

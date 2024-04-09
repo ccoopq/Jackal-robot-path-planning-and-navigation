@@ -1,0 +1,8 @@
+prefix=/media/ikun/T7/5413final/ME5413_Final_Project-main/install
+
+Name: velodyne_driver
+Description: Description of velodyne_driver
+Version: 1.7.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lvelodyne_input
+Requires: diagnostic_updater dynamic_reconfigure nodelet roscpp tf velodyne_msgs

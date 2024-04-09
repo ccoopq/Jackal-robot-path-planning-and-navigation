@@ -1,0 +1,8 @@
+prefix=/media/ikun/T7/5413final/ME5413_Final_Project-main/install
+
+Name: velodyne_msgs
+Description: Description of velodyne_msgs
+Version: 1.7.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime std_msgs

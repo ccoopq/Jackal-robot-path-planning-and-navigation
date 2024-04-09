@@ -1,0 +1,8 @@
+prefix=/media/ikun/T7/5413final/ME5413_Final_Project-main/devel
+
+Name: me5413_world
+Description: Description of me5413_world
+Version: 0.0.0
+Cflags: -I/media/ikun/T7/5413final/ME5413_Final_Project-main/src/me5413_world/include
+Libs: -L${prefix}/lib 
+Requires: 

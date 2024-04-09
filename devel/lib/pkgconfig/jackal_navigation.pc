@@ -1,0 +1,8 @@
+prefix=/media/ikun/T7/5413final/ME5413_Final_Project-main/devel
+
+Name: jackal_navigation
+Description: Description of jackal_navigation
+Version: 0.7.9
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

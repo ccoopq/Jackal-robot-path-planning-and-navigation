@@ -1,0 +1,16 @@
+-I/media/ikun/T7/5413final/ME5413_Final_Project-main/src/interactive_tools/include
+-I/opt/ros/melodic/include
+-I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp
+-I/usr/include
+-I/usr/include/eigen3
+-I/usr/include/OGRE/Overlay
+-I/usr/include/OGRE
+-I/media/ikun/T7/5413final/ME5413_Final_Project-main/build/interactive_tools
+-DROS_BUILD_SHARED_LIBS=1
+-DROS_BUILD_SHARED_LIBS=1
+-DROS_PACKAGE_NAME="interactive_tools"
+-DROSCONSOLE_BACKEND_LOG4CXX
+-DQT_NO_KEYWORDS
+-o
+/media/ikun/T7/5413final/ME5413_Final_Project-main/build/interactive_tools/include/interactive_tools/moc_rviz_panel.cpp
+/media/ikun/T7/5413final/ME5413_Final_Project-main/src/interactive_tools/include/interactive_tools/rviz_panel.hpp

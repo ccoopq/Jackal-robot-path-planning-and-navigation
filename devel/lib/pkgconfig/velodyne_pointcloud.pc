@@ -1,0 +1,8 @@
+prefix=/media/ikun/T7/5413final/ME5413_Final_Project-main/devel
+
+Name: velodyne_pointcloud
+Description: Description of velodyne_pointcloud
+Version: 1.7.0
+Cflags: -I/media/ikun/T7/5413final/ME5413_Final_Project-main/devel/include -I/media/ikun/T7/5413final/ME5413_Final_Project-main/src/velodyne/velodyne_pointcloud/include
+Libs: -L${prefix}/lib -lvelodyne_rawdata -ldata_containers
+Requires: angles nodelet roscpp roslib sensor_msgs tf2_ros velodyne_driver velodyne_msgs dynamic_reconfigure diagnostic_updater
