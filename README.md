@@ -156,7 +156,10 @@ Below are the result images for three different targets:
 #### Box Detect
 Because the Box in the map is randomly generated and we do not know the location of the Box in advance, Jackal needs to search for the Box in a certain area and use visual detection to obtain the Box's location.
 
-For communication between Python vision algorithm and ROS, see 'img_process/README.md'.
+We use the API provided by Huawei Cloud in Python to train the digital recognition model, and generate the next target position based on the position and size information of the object frame, and communicate with the main program through Python-ROS.
+
+For specific detection and location generation steps, see 'img_process/README.md'.
+![rviz_vision_image](Img_process/huawei.png)
 
 ## Contribution
 
