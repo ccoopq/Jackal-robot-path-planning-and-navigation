@@ -136,6 +136,11 @@ Once completed **Step 2** mapping and saved your map, quit the mapping process.
 
 Here TEB(Timed Elastic Band) is applied.
 
+Install TEB
+```bash
+sudo apt-get install ros-melodic-teb-local-planner
+```
+Run
 ```bash
 roslaunch me5413_world navigation.launch
 ```
