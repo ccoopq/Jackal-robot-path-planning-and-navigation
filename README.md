@@ -2,21 +2,15 @@
 
 NUS ME5413 Autonomous Mobile Robotics Final Project
 > Authors: [Christina](https://github.com/ldaowen), [Yuhang](https://github.com/yuhang1008), [Dongen](https://github.com/nuslde), and [Shuo](https://github.com/SS47816)
-
-![Ubuntu 20.04](https://img.shields.io/badge/OS-Ubuntu_20.04-informational?style=flat&logo=ubuntu&logoColor=white&color=2bbc8a)
-![ROS Noetic](https://img.shields.io/badge/Tools-ROS_Noetic-informational?style=flat&logo=ROS&logoColor=white&color=2bbc8a)
-![C++](https://img.shields.io/badge/Code-C++-informational?style=flat&logo=c%2B%2B&logoColor=white&color=2bbc8a)
-![Python](https://img.shields.io/badge/Code-Python-informational?style=flat&logo=Python&logoColor=white&color=2bbc8a)
-![GitHub Repo stars](https://img.shields.io/github/stars/NUS-Advanced-Robotics-Centre/ME5413_Final_Project?color=FFE333)
-![GitHub Repo forks](https://img.shields.io/github/forks/NUS-Advanced-Robotics-Centre/ME5413_Final_Project?color=FFE333)
+> Co-Authors : [ikun](https://github.com/ccoopq) and his group mates
 
 ![cover_image](src/me5413_world/media/gazebo_world.png)
 
 ## Dependencies
 
 * System Requirements:
-  * Ubuntu 20.04 (18.04 not yet tested)
-  * ROS Noetic (Melodic not yet tested)
+  * Ubuntu 18.04
+  * ROS Melodic
   * C++11 and above
   * CMake: 3.0.2 and above
 * This repo depends on the following standard ROS pkgs:
@@ -42,11 +36,12 @@ NUS ME5413 Autonomous Mobile Robotics Final Project
 
 ## Installation
 
-This repo is a ros workspace, containing three rospkgs:
+Containing rospkgs:
 
 * `interactive_tools` are customized tools to interact with gazebo and your robot
 * `jackal_description` contains the modified jackal robot model descriptions
 * `me5413_world` the main pkg containing the gazebo world, and the launch files
+* Other pkgs are optional based on youe own environment
 
 **Note:** If you are working on this project, it is encouraged to fork this repository and work on your own fork!
 
