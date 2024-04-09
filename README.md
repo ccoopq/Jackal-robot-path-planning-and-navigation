@@ -153,6 +153,11 @@ Below are the result images for three different targets:
   <img src="Result/Vehicle.png" width="305" />
 </p>
 
+#### Box Detect
+Because the Box in the map is randomly generated and we do not know the location of the Box in advance, Jackal needs to search for the Box in a certain area and use visual detection to obtain the Box's location.
+
+For communication between Python vision algorithm and ROS, see 'img_process/README.md'.
+
 ## Contribution
 
 You are welcome contributing to this repo by opening a pull-request
