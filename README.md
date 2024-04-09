@@ -2,6 +2,7 @@
 
 NUS ME5413 Autonomous Mobile Robotics Final Project
 > Authors: [Christina](https://github.com/ldaowen), [Yuhang](https://github.com/yuhang1008), [Dongen](https://github.com/nuslde), and [Shuo](https://github.com/SS47816)
+> 
 > Co-Authors : [ikun](https://github.com/ccoopq) and his group mates
 
 ![cover_image](src/me5413_world/media/gazebo_world.png)
@@ -42,10 +43,6 @@ Containing rospkgs:
 * `jackal_description` contains the modified jackal robot model descriptions
 * `me5413_world` the main pkg containing the gazebo world, and the launch files
 * Other pkgs are optional based on youe own environment
-
-**Note:** If you are working on this project, it is encouraged to fork this repository and work on your own fork!
-
-After forking this repo to your own github:
 
 ```bash
 # Clone your own fork of this repo (assuming home here `~/`)
@@ -106,10 +103,6 @@ If you wish to explore the gazebo world a bit, we provide you a way to manually 
 # Only launch the robot keyboard teleop control
 roslaunch me5413_world manual.launch
 ```
-
-**Note:** This robot keyboard teleop control is also included in all other launch files, so you don't need to launch this when you do mapping or navigation.
-
-![rviz_manual_image](src/me5413_world/media/rviz_manua.png)
 
 ### 2. Mapping
 
